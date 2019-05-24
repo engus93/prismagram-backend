@@ -5,8 +5,8 @@
 ## User Stories
 
 - [x] Create account
-- [ ] Request Secret
-- [ ] Confirm Secret (Log In)
+- [x] Request Secret
+- [x] Confirm Secret (Log In)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
