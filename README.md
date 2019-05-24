@@ -88,3 +88,9 @@ yarn add morgan
 ### nodemailer & nodemailer-sendgrid-transport -> 대신 -> @sendgrid/mail
 
 sendgrid
+
+### passport & passport-jwt
+
+### jsonwebtoken
+
+- public key and privat key (https://daitso.kbhub.co.kr/27632/)
