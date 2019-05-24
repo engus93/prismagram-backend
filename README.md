@@ -1,5 +1,24 @@
 # Prismagram
 
+#### Instagram clone with Express + Prisma + React
+
+## User Stories
+
+- [x] Create account
+- [x] Request Secret
+- [x] Confirm Secret (Log In)
+- [ ] Like / Unlike a photo
+- [ ] Comment on a photo
+- [ ] Search by user
+- [ ] Search by location
+- [ ] See user profile
+- [ ] Follow / Unfollow User
+- [ ] See the full photo
+- [ ] Edit my profile
+- [ ] Upload a photo
+- [ ] Edit the photo (Delete)
+- [ ] See the feed
+
 ## 기능
 
 ## 환경설정
@@ -59,3 +78,19 @@ yarn add morgan
 ###### ※ morgan("") → 괄호 안에 원하는 로그의 형태를 지정할 수 있다.
 
 ### graphql-tools & merge-graphql-schemas
+
+### prisma-client-lib
+
+### randomlists site
+
+- https://www.randomlists.com/
+
+### nodemailer & nodemailer-sendgrid-transport -> 대신 -> @sendgrid/mail
+
+sendgrid
+
+### passport & passport-jwt
+
+### jsonwebtoken
+
+- public key and privat key (https://daitso.kbhub.co.kr/27632/)
