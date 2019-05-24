@@ -78,3 +78,13 @@ yarn add morgan
 ###### ※ morgan("") → 괄호 안에 원하는 로그의 형태를 지정할 수 있다.
 
 ### graphql-tools & merge-graphql-schemas
+
+### prisma-client-lib
+
+### randomlists site
+
+- https://www.randomlists.com/
+
+### nodemailer & nodemailer-sendgrid-transport -> 대신 -> @sendgrid/mail
+
+sendgrid
