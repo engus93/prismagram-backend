@@ -7,17 +7,23 @@
 - [x] Create account
 - [x] Request Secret
 - [x] Confirm Secret (Log In)
-- [ ] Like / Unlike a photo
-- [ ] Comment on a photo
-- [ ] Search by user
-- [ ] Search by location
-- [ ] See user profile
-- [ ] Follow / Unfollow User
-- [ ] See the full photo
-- [ ] Edit my profile
+- [x] Like / Unlike a photo
+- [x] Comment on a photo
+- [x] Search by user
+- [x] Search by location
+- [x] Follow User
+- [x] Unfollow User
+- [x] Edit my profile
+- [x] See user profile
+- [x] See MY profile
+- [x] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message
 
 ## 기능
 
