@@ -15,7 +15,7 @@
 - [x] Unfollow User
 - [x] Edit my profile
 - [x] See user profile
-- [ ] See MY profile
+- [x] See MY profile
 - [ ] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
