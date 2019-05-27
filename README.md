@@ -22,7 +22,7 @@
 - [x] See the feed
 - [x] Send private Message
 - [x] See rooms
-- [ ] See room
+- [x] See room
 - [ ] Receive Message
 
 ## 기능
