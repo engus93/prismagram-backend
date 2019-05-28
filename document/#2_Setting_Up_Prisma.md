@@ -9,3 +9,11 @@
 #### \$fregmaent() -> infinite loop 오류 방지
 
 ### enum
+
+### computed
+
+### subscription
+
+[Prisma Docs - Subscription](https://www.prisma.io/docs/reference/prisma-api/subscriptions-aey0vohche/)
+
+- payload

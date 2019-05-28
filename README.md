@@ -19,11 +19,11 @@
 - [x] See the full photo
 - [x] Upload a photo
 - [x] Edit the photo (Delete)
-- [ ] See the feed
-- [ ] See rooms
-- [ ] See room
-- [ ] Send private Message
-- [ ] Receive Message
+- [x] See the feed
+- [x] Send private Message
+- [x] See rooms
+- [x] See room
+- [x] Receive Message
 
 ## 기능
 
