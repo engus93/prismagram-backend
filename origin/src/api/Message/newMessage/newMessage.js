@@ -4,7 +4,7 @@ export default {
   Subscription: {
     newMessage: {
       subscribe: (_, args) => {
-        const { chatId: roomId } = args;
+        const { roomId } = args;
         return prisma.$subscribe
           .message({
             AND: [

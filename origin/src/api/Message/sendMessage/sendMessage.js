@@ -21,9 +21,9 @@ export default {
       if (!room) {
         throw Error("Room not found");
       }
-      const getToId = room.participants.filter(
-        participants => participants.id !== user.id
-      )[0].id;
+      const getTo = room.participants.filter(
+        participant => participant.id !== user.id
+      )[0];
       return prisma.createMessage({
         text: message,
         from: {
@@ -31,7 +31,7 @@ export default {
         },
         to: {
           connect: {
-            id: roomId ? getToId : toId
+            id: roomId ? getTo.id : toId
           }
         },
         room: {

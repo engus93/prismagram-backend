@@ -18,6 +18,8 @@ type User {
   comments: [Comment!]!
   rooms: [Room!]!
   loginSecret: String!
+  createdAt: String
+  updatedAt: String
 }
 
 type Post {
