@@ -22,7 +22,6 @@ export default {
       };
       try {
         const existingLike = await prisma.$exists.like(filterOptions);
-
         if (existingLike) {
           await prisma.deleteManyLikes(filterOptions);
         } else {
@@ -39,7 +38,6 @@ export default {
             }
           });
         }
-
         return true;
       } catch {
         return false;
