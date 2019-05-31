@@ -41,18 +41,12 @@
 
 ### graphql-yoga
 
-```
+```bash
 yarn add graphql-yoga
 ```
 
 > 빠르게 graphQL을 사용할 수 있도록 도와주는 패키지 (Express Server가 내장되어 있음)  
 > ※ GraphQL을 쓰는 이유: Over-fatching / Under-fetching을 해결 가능
-
-### graphql-yoga
-
-```
-yarn add graphql-yoga
-```
 
 ### Babel
 
@@ -83,20 +77,60 @@ yarn add morgan
 
 ###### ※ morgan("") → 괄호 안에 원하는 로그의 형태를 지정할 수 있다.
 
-### graphql-tools & merge-graphql-schemas
+### graphql-tools
+
+```bash
+yarn add graphql-tools
+```
+
+> Schema와 Resolve를 분리를 해주는 구조를 만들 수 있도록 도와주는 모듈
+
+### merge-graphql-schemas
+
+```bash
+yarn add merge-graphql-schemas
+```
+
+> `graphql-tools`와 함께 자주 쓰인다. 모듈화 되어 있는 Schema와 Resolver의 병합을 도와주는 모듈이다.
 
 ### prisma-client-lib
 
-### randomlists site
+```bash
+yarn add prisma-client-lib
+```
 
-- https://www.randomlists.com/
+> `Prisma` 클라이언트를 실행하기 위해 필요한 `GraphQL`의 패키지가 들어있다.
 
-### nodemailer & nodemailer-sendgrid-transport -> 대신 -> @sendgrid/mail
+### @sendgrid/mail
 
-sendgrid
+```bash
+yarn add @sendgrid/mail
+```
 
-### passport & passport-jwt
+> `SendGrid`라는 서비스이다. 간단한 함수로 사용자에게 메일을 보낼 수 있도록 도와주는 모듈
 
-### jsonwebtoken
+### passport
 
-- public key and privat key (https://daitso.kbhub.co.kr/27632/)
+```bash
+yarn add passport
+```
+
+> 사용자 인증을 도와준다.
+
+### passport-jwt
+
+```bash
+yarn add passport-jwt
+```
+
+> `PassPort`로 `JWT`인증을 구현할 수 있도록 도와준다.
+
+###### ※ JWT란 JsonWebToken의 약자이다.
+
+### ※ randomlists site
+
+[사이트로 이동하기](https://www.randomlists.com/)
+
+> 랜덤한 단어들을 원하는 수만큼 제공해주는 사이트
+
+###### ※ 본 사이트에서는 시크릿 코드로 사용
