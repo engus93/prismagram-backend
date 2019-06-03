@@ -1,0 +1,14 @@
+type Mutation {
+  createAccount(
+    username: String!
+    email: String!
+    firstName: String
+    lastName: String
+    bio: String
+  ): User!
+}
+
+# Query가 없으면 Error가 난다. 더미 Query 만들어 놓기
+type Query {
+  something: String!
+}
