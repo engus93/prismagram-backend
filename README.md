@@ -57,21 +57,21 @@ yarn add nodemon -D
 > 맨 끝에 -D는 package.json에 `dependencies`가 아닌 `devDependencies`로 들어가게 된다.
 > `dependencies`는 프로젝트에 필요한 라이브러리, `devDependencies`는 개발시에 필요한 라이브러리이다.
 
-### Babel-cli
+### Babel
 
 ```bash
-yarn add babel-cli -D
+yarn add @babel/node @babel/core @babel/preset-env
 ```
 
 > `Babel`은 최신 버전의 자바스크립트 문법은 브라우저가 이해하지 못하는 상황 때문에 babel이 브라우저가 이해할 수 있는 문법으로 변환해준다.
 
-<!-- ### Babel
-
 ```bash
-yarn add @babel/node
-yarn add @babel/preset-env
-yarn add @babel/core
-``` -->
+Requires Babel "^7.0.0-0", but was loaded with "6.26.3".
+If you are sure you have a compatible version of @babel/core,
+it is likely that something in your build process is loading the wrong version.
+```
+
+###### ※ 혹시 이런 오류가 난다면 `babel-cli` 가 설치 되어 있는지 확인하자
 
 ### morgan
 
