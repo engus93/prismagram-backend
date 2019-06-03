@@ -1,0 +1,19 @@
+{
+  "name": "prismagram-review",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express + Prisma + React and React Native",
+  "repository": "https://github.com/engus93/prismagram-backend",
+  "author": "Kim DuHyeon <engus983@gmail.com>",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}

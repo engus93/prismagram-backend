@@ -48,16 +48,6 @@ yarn add graphql-yoga
 > 빠르게 graphQL을 사용할 수 있도록 도와주는 패키지 (Express Server가 내장되어 있음)  
 > ※ GraphQL을 쓰는 이유: Over-fatching / Under-fetching을 해결 가능
 
-### Babel
-
-```bash
-yarn add @babel/node
-yarn add @babel/preset-env
-yarn add @babel/core
-```
-
-> `Babel`은 최신 버전의 자바스크립트 문법은 브라우저가 이해하지 못하는 상황 때문에 babel이 브라우저가 이해할 수 있는 문법으로 변환해준다.
-
 ### nodemon
 
 ```bash
@@ -66,6 +56,22 @@ yarn add nodemon -D
 
 > 맨 끝에 -D는 package.json에 `dependencies`가 아닌 `devDependencies`로 들어가게 된다.
 > `dependencies`는 프로젝트에 필요한 라이브러리, `devDependencies`는 개발시에 필요한 라이브러리이다.
+
+### Babel-cli
+
+```bash
+yarn add babel-cli -D
+```
+
+> `Babel`은 최신 버전의 자바스크립트 문법은 브라우저가 이해하지 못하는 상황 때문에 babel이 브라우저가 이해할 수 있는 문법으로 변환해준다.
+
+<!-- ### Babel
+
+```bash
+yarn add @babel/node
+yarn add @babel/preset-env
+yarn add @babel/core
+``` -->
 
 ### morgan
 
