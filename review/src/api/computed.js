@@ -32,5 +32,27 @@ export default {
         return false;
       }
     }
+  },
+  Post: {
+    isLiked: async (parent, _, { request }) => {
+      const {
+        user: { id: userId }
+      } = request;
+      const { id: postId } = parent;
+      return prisma.$exists.like({
+        AND: [
+          {
+            user: {
+              id: userId
+            }
+          },
+          {
+            post: {
+              id: postId
+            }
+          }
+        ]
+      });
+    }
   }
 };
