@@ -15,6 +15,27 @@
 
 <!-- Here is that you have to add prisma setting tutorial document -->
 
+##### 1. [prisma] 에 접속한다.
+
+##### 2. 회원 가입을 한다.
+
+##### 3. Prisma global install
+
+```bash
+# Prisma 전역에 설치
+npm install -g prisma
+```
+
+##### 4. `Demo server + MySQL database` 선택
+
+##### 5. `demo-us1` 선택
+
+##### 6. Service name 입력
+
+###### ex) Prismagram
+
+##### 7. `Prisma JavaScript Client` 선택
+
 ###### Reference : [Prisma - setup docs]
 
 ### 3. ORM (Object-Relational Mapping)
@@ -24,5 +45,6 @@
 
 <!-- Connection link list -->
 
+[prisma]: https://www.prisma.io/
 [prisma - what is prisma ?]: https://www.prisma.io/docs/understand-prisma/prisma-introduction-what-why-how-j9ff/
 [prisma - setup docs]: https://www.prisma.io/docs/1.34/get-started/01-setting-up-prisma-new-database-TYPESCRIPT-t002/
