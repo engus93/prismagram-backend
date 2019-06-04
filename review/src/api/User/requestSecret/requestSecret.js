@@ -7,7 +7,7 @@ export default {
       const { email } = args;
       const loginSecret = generateSecret();
       try {
-        await sendSecretMail(eamil, loginSecret);
+        await sendSecretMail(email, loginSecret);
         await prisma.updateUser({ data: { loginSecret }, where: { email } });
         return true;
       } catch (error) {
