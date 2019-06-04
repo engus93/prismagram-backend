@@ -1,4 +1,5 @@
 import { prisma } from "../../../../generated/prisma-client";
+import { generateToken } from "../../../utils";
 
 export default {
   Muation: {
@@ -6,8 +7,8 @@ export default {
       const { eamil, secret } = args;
       const user = prisma.user({ email });
       if (user.secret === secret) {
-        //   JWT
-        return "TOKEN";
+        // JWT 발행
+        return generateToken(user.id);
       } else {
         throw Error("wrong eamil/secret combination");
       }
